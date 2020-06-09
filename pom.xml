@@ -8,5 +8,19 @@
     <artifactId>sc-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>nacos-provider</module>
+        <module>nacos-customer</module>
+    </modules>
+    <packaging>pom</packaging>
+    <description>study-parent</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <springboot.version>2.3.0</springboot.version>
+    </properties>
+
+
+
 
 </project>
